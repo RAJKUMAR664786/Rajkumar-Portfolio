@@ -10,7 +10,6 @@ function ProjectsPage() {
       description: "AI Career Intelligence is an AI-powered platform designed to help students explore career opportunities, receive personalized career guidance, and practice mock interviews. It includes student profiles and a dashboard to support career planning and skill development.",
       image: career,
       tags: ["React", "Bootstrap", "express", "Node.js", "Firebase", "Gemini Api"],
-      live: "https://vercel.com",
       github: "http://github.com/RAJKUMAR664786/Smart-Industrial-Equipment-Maintenance-Prediction-system-website"
     },
     {
@@ -18,31 +17,27 @@ function ProjectsPage() {
       description: "The proposed system is a Smart Industrial Equipment Maintenance Prediction System designed to overcome the limitations of the existing system. It is a web-based application that uses machine usage data to predict maintenance requirements.",
       image: smart,
       tags: ["Html", "CSS", "Javascript"],
-      live: "https://vercel.com",
-      github: "http://github.com/RAJKUMAR664786/Smart-Industrial-Equipment-Maintenance-Prediction-system-website"
+      github: "https://github.com/RAJKUMAR664786/Smart-Industrial-Equipment-system"
     },
     {
       title: "Note Pad",
       description: "A simple and user-friendly web-based notepad application built using HTML, CSS, and JavaScript. It allows users to write, edit, and save notes with an easy-to-use interface.",
       image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=80",
       tags: ["Html", "Css", "JavaScript"],
-      live: "https://vercel.com",
-      github: "https://github.com"
+      github: "https://github.com/RAJKUMAR664786/NotePad"
     },
     {
       title: "To-Do List App",
       description: "A simple and interactive Todo List application built using HTML, CSS, and JavaScript. It helps users organize daily activities by adding tasks, tracking completed tasks, and managing their to-do items.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=80",
       tags: ["Html", "CSS", "JavaScript"],
-      live: "https://vercel.com",
-      github: "https://github.com"
+      github: "https://github.com/RAJKUMAR664786/TO-DO-LIST"
     },
     {
       title: "Portfolio Website",
       description: "Modern developer portfolio featuring responsive design, dark neon theme, and clean page routing.",
       image: portfolio,
       tags: ["React", "Bootstrap", "Vercel"],
-      live: "https://vercel.com",
       github: "https://github.com"
     }
   ];
@@ -80,9 +75,7 @@ function ProjectsPage() {
                   <a href={proj.github} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-light d-flex align-items-center gap-1">
                     <Icons.Github /> GitHub
                   </a>
-                  <a href={proj.live} target="_blank" rel="noreferrer" className="btn btn-sm px-3" style={styles.primaryBtnSmall}>
-                    <Icons.ExternalLink /> Demo
-                  </a>
+                  
                 </div>
               </div>
             </div>
