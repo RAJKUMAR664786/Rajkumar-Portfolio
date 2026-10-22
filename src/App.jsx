@@ -114,7 +114,7 @@ export default function App() {
       {/* Footer */}
       <footer className="text-center py-4 mt-5 text-muted border-top border-secondary border-opacity-25">
         <p className="mb-0" style={{ color: "#a59cb8" }}>
-          Designed & Built with React & Bootstrap &bull; {new Date().getFullYear()}
+          © Rajkumar | Aspiring Software Developer | Building Ideas into Reality with Code &bull; {new Date().getFullYear()}
         </p>
       </footer>
     </div>

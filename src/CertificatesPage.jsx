@@ -28,10 +28,17 @@ import img26 from "./assets/img26.jpg"
 import img27 from "./assets/img27.jpg"
 import img28 from "./assets/img28.jpg"
 import img29 from "./assets/img29.jpg"
+import img30 from "./assets/img30.jpeg"
 
 // ---------------- 4. CERTIFICATES PAGE ----------------
 function CertificatesPage() {
   const certs = [
+    {
+      image: img30,
+      title: "Web Development",
+      issuer: "Tech Vedhu",
+      date: "2026",
+    },
     {
       image: img29,
       title: "Basics of Python",

@@ -10,7 +10,7 @@ function ProjectsPage() {
       description: "AI Career Intelligence is an AI-powered platform designed to help students explore career opportunities, receive personalized career guidance, and practice mock interviews. It includes student profiles and a dashboard to support career planning and skill development.",
       image: career,
       tags: ["React", "Bootstrap", "express", "Node.js", "Firebase", "Gemini Api"],
-      github: "http://github.com/RAJKUMAR664786/Smart-Industrial-Equipment-Maintenance-Prediction-system-website"
+      github: "https://github.com/RAJKUMAR664786/Ai-Career-Intelligence"
     },
     {
       title: "Smart Industrial Equipment Maintenance Prediction System",
@@ -38,7 +38,7 @@ function ProjectsPage() {
       description: "Modern developer portfolio featuring responsive design, dark neon theme, and clean page routing.",
       image: portfolio,
       tags: ["React", "Bootstrap", "Vercel"],
-      github: "https://github.com"
+      github: "https://github.com/RAJKUMAR664786/Rajkumar-Portfolio"
     }
   ];
 
